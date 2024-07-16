@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "YapBlocker",
+  "description": "Blocking ads.",
+  "version": "0.0.1",
+  "author": "SleepySage",
+  "browser_action": {
+    "default_title": "YapBlocker/AdBlocker"
+  },
+  "permissions": ["tabs", "webNavigation", "https://www.youtube.com/"],
+  "background": {
+    "scripts": ["extension.js"]
+  }
+}
