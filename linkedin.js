@@ -25,9 +25,12 @@ function removeAds() {
   }
 }
 
+
 removeAds();
+
 
 //Ensures ads will be removed as the user scrolls
 setInterval(function () {
   removeAds();
 }, 100);
+
